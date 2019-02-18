@@ -1,5 +1,5 @@
 {
-  "name": "Leaflet.TileGeoJSON",
+  "name": "leaflet-tilegeojson",
   "version": "0.1.0",
   "description": "Leaflet plugin for the layers rendering the tiled GeoJSON data",
   "main": "dist/Leaflet.TileGeoJSON.js",
