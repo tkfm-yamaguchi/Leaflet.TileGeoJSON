@@ -7,7 +7,6 @@
   "repository": "https://github.com/zeroyonichihachi/leaflet-gridlayer-geojson.git",
   "author": "Takafumi Yamaguchi",
   "license": "BSD-2-Clause-FreeBSD",
-  "private": true,
   "peerDependencies": {
     "leaflet": "^1.4.0"
   },
