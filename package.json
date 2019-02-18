@@ -1,0 +1,22 @@
+{
+  "name": "Leaflet.TileGeoJSON",
+  "version": "0.1.0",
+  "description": "Leaflet plugin for the layers rendering the tiled GeoJSON data",
+  "main": "dist/Leaflet.TileGeoJSON.js",
+  "module": "dist/Leaflet.TileGeoJSON.esm.js",
+  "repository": "https://github.com/zeroyonichihachi/leaflet-gridlayer-geojson.git",
+  "author": "Takafumi Yamaguchi",
+  "license": "BSD-2-Clause-FreeBSD",
+  "private": true,
+  "peerDependencies": {
+    "leaflet": "^1.4.0"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "rollup": "^1.1.2"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "serve": "http-server -p 4400"
+  }
+}
