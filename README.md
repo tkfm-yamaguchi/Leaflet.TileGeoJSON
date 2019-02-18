@@ -2,7 +2,7 @@
 
 [Leaflet](https://leafletjs.com) plugin for the layers of tiled GeoJSON. This is just like as [leaflet-tilelayer-gejson](https://github.com/glenrobertson/leaflet-tilelayer-geojson/) (but `clipTiles` and `unique` options are missing in this plugin), and works with Leaflet v1.4 (or above).
 
-[Demo page (getting ready)]
+[Demo page](https://zeroyonichihachi.github.io/Leaflet.TileGeoJSON)
 
 
 ## Install
