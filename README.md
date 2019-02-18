@@ -11,7 +11,7 @@
 $ npm install leaflet Leaflet.TileGeoJSON
 ```
 
-Or download the compiled file from `dist` directory.
+Or download the [compiled file](https://github.com/zeroyonichihachi/Leaflet.TileGeoJSON/tree/v0.1.0/dist).
 
 
 ## Example
