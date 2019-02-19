@@ -1,5 +1,5 @@
 # ignore compiled files on the non-release branch
-dist/
+# dist/
 
 # Logs
 logs
