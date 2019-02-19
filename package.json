@@ -1,6 +1,6 @@
 {
   "name": "leaflet-tilegeojson",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Leaflet plugin for the layers rendering the tiled GeoJSON data",
   "main": "dist/Leaflet.TileGeoJSON.js",
   "module": "dist/Leaflet.TileGeoJSON.esm.js",
@@ -11,6 +11,11 @@
   "peerDependencies": {
     "leaflet": "^1.4.0"
   },
+  "keywords": [
+    "Leaflet",
+    "tile",
+    "GeoJSON"
+  ],
   "devDependencies": {
     "rollup": "^1.1.2",
     "terser": "^3.16.1"
