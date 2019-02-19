@@ -12,7 +12,7 @@ $ npm install leaflet leaflet-tilegeojson
 ```
 (NOTE: package name is all lower case and hyphen separated for the limitation of npm)
 
-Or download the [compiled file](https://github.com/zeroyonichihachi/Leaflet.TileGeoJSON/tree/v0.1.1/dist).
+Or download the [compiled file](https://github.com/zeroyonichihachi/Leaflet.TileGeoJSON/tree/gh-pages/dist).
 
 
 ## Example
