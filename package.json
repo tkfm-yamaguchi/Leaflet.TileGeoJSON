@@ -4,7 +4,7 @@
   "description": "Leaflet plugin for the layers rendering the tiled GeoJSON data",
   "main": "dist/Leaflet.TileGeoJSON.js",
   "module": "dist/Leaflet.TileGeoJSON.esm.js",
-  "repository": "https://github.com/zeroyonichihachi/leaflet-gridlayer-geojson.git",
+  "repository": "https://github.com/zeroyonichihachi/Leaflet.TileGeoJSON.git",
   "author": "Takafumi Yamaguchi",
   "license": "BSD-2-Clause-FreeBSD",
   "peerDependencies": {
