@@ -4,6 +4,7 @@
   "description": "Leaflet plugin for the layers rendering the tiled GeoJSON data",
   "main": "dist/Leaflet.TileGeoJSON.js",
   "module": "dist/Leaflet.TileGeoJSON.esm.js",
+  "unpkg": "dist/Leaflet.TileGeoJSON.min.js",
   "repository": "https://github.com/zeroyonichihachi/Leaflet.TileGeoJSON.git",
   "author": "Takafumi Yamaguchi",
   "license": "BSD-2-Clause-FreeBSD",
@@ -21,7 +22,7 @@
   },
   "scripts": {
     "rollup": "rollup -c",
-    "minify": "terser -m -c -o $npm_package_browser --source-map --timings --verbose -- $npm_package_main",
+    "minify": "terser -m -c -o $npm_package_unpkg --source-map --timings --verbose -- $npm_package_main",
     "build": "npm run rollup && npm run minify"
   }
 }
