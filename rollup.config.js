@@ -17,6 +17,8 @@ export default {
       name: pkg.name,
       file: pkg.main,
       format: 'iife',
+      extend: true,
+      noConflict: true,
       sourcemap: true,
       globals: {
         leaflet: 'L',

@@ -5,23 +5,21 @@
   <title>Leaflet.TileGeoJSON Example</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />
   <style>
-    * {margin:0;padding:0;box-sizing:border-box;font-size:16px}
+    * {margin:0;padding:0;box-sizing:border-box}
     #contents{height:100vh;width:100vw;position:relative}
     #desc{position:absolute;left:10px;bottom:10px;height:160px;width:400px;border-radius:3px;background-color:#fff;z-index:100000;box-shadow:3px 3px 3px rgba(0,0,0,0.3);padding:20px;}
-    #desc h1{font-size:110%;margin-bottom:10px}
+    #desc h1{font-size:16px;margin-bottom:10px}
   </style>
 </head>
 <body>
   <div id="contents"></div>
   <div id="desc">
     <h1>Leaflet.TileGeoJSON</h1>
-    <p>
-      This is an demo page (<a href="https://github.com/zeroyonichihachi/Leaflet.TileGeoJSON/blob/gh-pages/index.html">source</a>) for the <a href="https://github.com/zeroyonichihachi/Leaflet.TileGeoJSON">Leaflet.TileGeoJSON</a> which is a <a href="https://leafletjs.com/">Leaflet</a> (v1.4 or above) plugin, handles/shows the tile splitted GeoJSON files.
-    </p>
+    <p>This is an demo page (<a href="https://github.com/zeroyonichihachi/Leaflet.TileGeoJSON/blob/gh-pages/index.html">source</a>) for the <a href="https://github.com/zeroyonichihachi/Leaflet.TileGeoJSON">Leaflet.TileGeoJSON</a> which is a <a href="https://leafletjs.com/">Leaflet</a> (v1.4 or above) plugin, handles/shows the tile splitted GeoJSON files.</p>
   </div>
 
   <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
-  <script src="dist/Leaflet.TileGeoJSON.js"></script>
+  <script src="dist/Leaflet.TileGeoJSON.min.js"></script>
   <script>
     const map = L.map('contents', {
       center: [35.301279, 139.481001],
