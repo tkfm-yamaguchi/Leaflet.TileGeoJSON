@@ -10,4 +10,4 @@ declare function tileGeoJSON(
   url: string,
   options?: GridLayerOptions,
   geojsonOptions?: GeoJSONOptions,
-): TileGeoJSONLayer;
+): TileGeoJSON;
